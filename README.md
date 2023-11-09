@@ -44,7 +44,8 @@ In this project is used :
 2. Looker Studio : to made data visualization report
 
 ## Case Study Answer
-1. a. Primary key of Customer table : CustomerID
+1.This is primary key each table 
+   a. Primary key of Customer table : CustomerID
    b. Primary key of Products table : ProdNumber
    c. Primary key of Orders table : OrderID
    d. Primary key of ProductCategory table : CategoryID
@@ -54,4 +55,6 @@ In this project is used :
    a. From STAR SCHEMA, we know that the primary key of ProductCategory table is CategoryID which refers to Category column in Products table. So, first step is           join 2 table with LEFT JOIN and named product_order.
    b. Second step, we know that the primary key of Customer table is CustomerID which referes to CustomerID column in Orders table. So, join 2 column with LEFT JOIN       and named customer_order. 
    c. End step, join product_order table and customer_order table with primary key is product_number. 
-   
+
+   This is link Google Big Query to made master table : [https://console.cloud.google.com/bigquery?sq=91576120964:5c5734d0f6734dd3b6b63b14213038af]
+4. This is    
