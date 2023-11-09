@@ -3,8 +3,25 @@
 ### Goals
 To build model which can predict risk credit with dataset which provide by lending company.
 
-## Overview
+## Overview Case Study
 - Credit risk is a risk which must paid by individual or company to individual or company which lend them. 
 - A risk is about they can't pay the principal and interest loan. So, it can make loss are :
   1. Disturbance of cash flow, it can make the modal disturb.
   2. Increase operational cost to catch up the late payment
+- To decrease the risk credit, data team must predict the loan is good loan or bad loan. The predict is used to determine if they be a good loan, their new loan will accept. But, if they be a bad loan, their new loan will not accept.
+
+## Answer Case Study
+To solve this problem, will build model with Classification Analysis.
+
+### Steps :
+1. Preview Data set
+2. Missing Values & Outlier
+3. Visualisasi Data
+4. Data Splitting
+5. Data Preprocessing
+6. Modeling 
+
+
+Credit Risk Modeling
+
+Credit Risk Modeling adalah suatu analisis untuk membuat model prediksi kredit/pinjaman mana yang akan gagal bayar. Pada kasus ini menggunakan analisis klasifikasi biner (1 : gagal bayar/bad loan dan 0 : bayar tepat waktu, bayar sebelum jatuh tempo/good loan)
