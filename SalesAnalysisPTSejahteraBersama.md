@@ -57,7 +57,7 @@ In this project is used :
     - From STAR SCHEMA, we know that the primary key of ProductCategory table is CategoryID which refers to   Category column in Products table. So, first step is join 2 table with LEFT JOIN and named product_order.
     - Second step, we know that the primary key of Customer table is CustomerID which referes to CustomerID column in Orders table. So, join 2 column with LEFT JOIN and named customer_order.
     - End step, join product_order table and customer_order table with primary key is product_number.
-This is link Google Big Query to made master table : [https://console.cloud.google.com/bigquery?   sq=91576120964:5c5734d0f6734dd3b6b63b14213038af]
+This is link Google Big Query to made master table : [https://console.cloud.google.com/bigquery?sq=91576120964:5c5734d0f6734dd3b6b63b14213038af]
 
 4. This is Looker Studio link to know about Product Sales Report in PT Sejahtera Bersama [https://lookerstudio.google.com/reporting/f87de00e-5a48-44e8-9889-5bb30ce91572]
 ![DASHBOARD_PRODUCT_SALES (2)](https://github.com/gadingkusumaanggraeni/portfoliogadingkusumaanggraeni/assets/150303416/69dd1310-80ef-4a6c-b54c-52a3e1f9cdfb)
