@@ -48,5 +48,10 @@ In this project is used :
    b. Primary key of Products table : ProdNumber
    c. Primary key of Orders table : OrderID
    d. Primary key of ProductCategory table : CategoryID
+2. This is relationship of 4 table with STAR SCHEMA
+   ![image](https://github.com/gadingkusumaanggraeni/portfoliogadingkusumaanggraeni/assets/150303416/cef85e9d-98b9-424d-8294-4d39d97116c1)
+3. This is steps for made master table
+   a. From STAR SCHEMA, we know that the primary key of ProductCategory table is CategoryID which refers to Category column in Products table. So, first step is           join 2 table with LEFT JOIN and named product_order.
+   b. Second step, we know that the primary key of Customer table is CustomerID which referes to CustomerID column in Orders table. So, join 2 column with LEFT JOIN       and named customer_order. 
+   c. End step, join product_order table and customer_order table with primary key is product_number. 
    
-
