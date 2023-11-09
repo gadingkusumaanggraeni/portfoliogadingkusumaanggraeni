@@ -1,7 +1,8 @@
 ## Project Based Internship Bank Muamalat : Sales Analysis PT Sejahtera Bersama
 
 ### Preview Dataset 
-- In this project, the dataset is about sales data in PT Sejahtera Bersama which 4 table (Customer, Products,         Orders and ProductCategory).
+- In this project, the dataset is about sales data in PT Sejahtera Bersama which contains 4 table
+  (Customer, Products, Orders and ProductCategory).
 - Link dataset : [https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing]
 - This is name of column for each table :
     1. Customers
@@ -21,7 +22,7 @@
        - CategoryID
        - CategoryName
        - CategoryAbbreviation
-   
+
 ### Case Study
 1. To find primary key of Customer, Products, Orders and ProductCategory table !
 2. To find relationship of 4 table !
@@ -50,7 +51,7 @@ In this project is used :
    - Primary key of Orders table : OrderID
    - Primary key of ProductCategory table : CategoryID
 2. This is relationship of 4 table with STAR SCHEMA
-   ![image](https://github.com/gadingkusumaanggraeni/portfoliogadingkusumaanggraeni/assets/150303416/cef85e9d-98b9-424d-8294-4d39d97116c1)
+![image](https://github.com/gadingkusumaanggraeni/portfoliogadingkusumaanggraeni/assets/150303416/8d9ac623-7f13-486d-9906-56a63459d63e)
 3. This is steps for made master table :
     - From STAR SCHEMA, we know that the primary key of ProductCategory table is CategoryID which refers to Category column in Products table. So, first step is           join 2 table with LEFT JOIN and named product_order.
     - Second step, we know that the primary key of Customer table is CustomerID which referes to CustomerID column in Orders table. So, join 2 column with LEFT            JOIN and named customer_order.
