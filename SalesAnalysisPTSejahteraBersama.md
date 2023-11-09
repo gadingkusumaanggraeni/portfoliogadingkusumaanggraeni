@@ -4,20 +4,20 @@
 - In this project, the dataset is about sales data in PT Sejahtera Bersama which contains 4 table (Customer, Products, Orders and ProductCategory).
 - Link dataset : [https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing]
 - This is name of column for each table :
-    a. Customers
+    1. Customers
         - CustomerID      - CustomerAddress
         - FirstName       - CustomerCity
         - LastName        - CustomerState
         - CustomerEmail   - CustomerZip
         - CustomerPhone
-    b. Orders
+    2. Orders
         - OrderID         - ProdNumber
         - Date            - Quantity
         - CustomerID
-    c. Products
+    3. Products
         - ProdNumber      - Category
         - ProdName        - Price
-    d. ProductCategory
+    4. ProductCategory
        - CategoryID
        - CategoryName
        - CategoryAbbreviation
