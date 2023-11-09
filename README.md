@@ -20,3 +20,9 @@
 In this project, the data source is about sales data in PT Sejahtera Bersama.
 [https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing]
 
+## Tools
+In this project is used :
+1. Google Big Query : to made master table
+2. Looker Studio : to made data visualization report
+
+
