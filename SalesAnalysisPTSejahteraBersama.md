@@ -67,6 +67,6 @@ This is link Google Big Query to made master table : [https://console.cloud.goog
 - The product category has the highest total product quantity sold is 3123 eBooks with total sales is 58,968.41. While the lowest is Robot Kits, only 1037 products is sold.
 - Washington is a city with the highest total product sales was 55381.94 with the total quantity of products sold being 308 products. Meanwhile, the city with the lowest total product sales is Philadelphia is only 23,845.26 with 139 products sold.
 
-5. We know that in October 2021, total sales have increased. So, for maintain or increase sales we have recommendation strategy are :
-- Create old customer engagement by providing promotions interesting so that customers will be interested in buying the product again as well as creating product bundling package promos that are often purchased by customers with products that don't sell well.
-- We can carry out further analysis to study behavior old customers to form clusters/market groups. With knowing the customer market group, we can create a promotional package more attractive and in line with what customers need.
+5. We know that in October 2021, total sales have increased. So, for maintain or increase sales, the recommendation strategy are :
+- Made engagement with old customer by giving interested promotions which can make customer intersting to buy again the produt and make bundling package which customer often buy.
+- Then, we can make advance analysis to learn about old customer behavior to make cluster. When we know the cluster, we can make interested promotions package and relate with customer needed. 
